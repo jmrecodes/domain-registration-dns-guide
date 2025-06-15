@@ -1,5 +1,7 @@
 # 1. Domain Registration Basics
 
+[![hackmd-github-sync-badge](https://hackmd.io/-xTCGECdSNGuZEE8puwLVg/badge)](https://hackmd.io/-xTCGECdSNGuZEE8puwLVg)
+
 Welcome to the first step in creating your online presence! This guide explains what a domain name is, why you need one, and how to register it.
 
 [< Back to Main Menu](./README.md)

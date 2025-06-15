@@ -1,5 +1,7 @@
 # 3. Setting Up a Google Cloud VM
 
+[![hackmd-github-sync-badge](https://hackmd.io/ezm_7KU1QkSkNvwOoqwkuA/badge)](https://hackmd.io/ezm_7KU1QkSkNvwOoqwkuA)
+
 This guide will walk you through creating a virtual machine (VM) using Google Cloud Platform's (GCP) Compute Engine. A VM is your own private server in the cloud, which you can use to host a website, run an application, or anything else you'd need a server for.
 
 [< Back to Main Menu](./README.md)

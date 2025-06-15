@@ -1,5 +1,7 @@
 # 2. DNS Fundamentals
 
+[![hackmd-github-sync-badge](https://hackmd.io/G3DGF2aESUaHrH5Vje4Wxg/badge)](https://hackmd.io/G3DGF2aESUaHrH5Vje4Wxg)
+
 Now that you have a domain name, it's time to understand how it communicates with the rest of the internet. This guide covers the basics of the Domain Name System (DNS), the service that translates your domain into something browsers and servers can use.
 
 [< Back to Main Menu](./README.md)

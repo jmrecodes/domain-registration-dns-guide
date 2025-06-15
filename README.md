@@ -1,5 +1,7 @@
 # A Beginner's Guide to Domain Registration, DNS, and VM Linking
 
+[![hackmd-github-sync-badge](https://hackmd.io/T7W1uQ7KR0-uQ_ePfnIybQ/badge)](https://hackmd.io/T7W1uQ7KR0-uQ_ePfnIybQ)
+
 Welcome! This guide is designed to walk you through the fundamentals of setting up your own corner of the internet. If you're new to concepts like domain names, DNS, virtual machines (VMs), or how to connect them all, you're in the right place.
 
 We'll cover the entire process from buying a domain name to pointing it at a cloud server that you control. While the principles are universal, we'll provide specific examples using Google Cloud Platform (GCP) for hosting and Squarespace for domain management.

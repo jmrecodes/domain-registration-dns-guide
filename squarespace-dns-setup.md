@@ -1,5 +1,7 @@
 # 4. Configuring DNS on Squarespace
 
+[![hackmd-github-sync-badge](https://hackmd.io/Ce6Zq1gYSGSCrWBvvU9ZbQ/badge)](https://hackmd.io/Ce6Zq1gYSGSCrWBvvU9ZbQ)
+
 If you registered your domain through Squarespace or are using their platform to manage it, this guide will show you exactly how to edit your DNS records. We'll add the necessary records to point your domain to the Google Cloud VM you set up in the previous step.
 
 [< Back to Main Menu](./README.md)

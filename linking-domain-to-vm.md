@@ -1,5 +1,7 @@
 # 5. Linking Your Domain to Your VM
 
+[![hackmd-github-sync-badge](https://hackmd.io/kxxvsWRzRx2NqUTipWeOoA/badge)](https://hackmd.io/kxxvsWRzRx2NqUTipWeOoA)
+
 This is the final and most exciting step! You've registered a domain, set up a cloud server, and configured your DNS records. This guide will confirm that everything is working together and give you the next steps to get your website truly up and running.
 
 [< Back to Main Menu](./README.md)
