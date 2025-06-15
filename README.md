@@ -25,3 +25,7 @@ If you're starting from scratch, we highly recommend you follow the guides in th
 ## Feedback and Contributions
 
 This guide is for you! If you find anything unclear, have suggestions for improvement, or spot an error, please feel free to raise an issue or suggest a change.
+
+---
+
+*Last updated: June 15, 2025 | Created with 💙 from the Philippines 🇵🇭 using [Zed](https://zed.dev/), and Gemini 2.5 Pro*
