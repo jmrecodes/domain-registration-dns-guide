@@ -26,6 +26,37 @@ You'll encounter several types of DNS records. Here are the most common ones you
 | **MX**      | Mail Exchanger Record    | Directs email to a mail server. You'll use this if you set up a custom email address like `you@example.com`. | `10 mail.example.com`          |
 | **TXT**     | Text Record              | Lets you store arbitrary text. Often used for verifying domain ownership with services like Google or Microsoft. | `google-site-verification=...` |
 
+## Pointing a Domain and Subdomains to Different Servers
+
+A powerful feature of DNS is the ability to point your main domain and its various subdomains to completely different servers and services. This allows you to host your main website, blog, and other applications with different providers or on different infrastructure.
+
+Let's look at a common scenario:
+-   `mydomain.com` -> Points to **GitHub Pages**
+-   `blog.mydomain.com` -> Points to a **GCP Compute Engine VM**
+-   `app.mydomain.com` -> Points to the **same GCP VM**, but serves a different application
+
+To achieve this, you would configure your DNS records like this:
+
+1.  **For the main domain (`mydomain.com`) pointing to GitHub Pages:**
+    *   You would create `A` records as specified by GitHub. Typically, this involves four separate `A` records pointing to GitHub's IP addresses.
+    *   **Type**: `A`
+    *   **Host/Name**: `@`
+    *   **Value**: (GitHub's IP address, e.g., `185.199.108.153`)
+
+2.  **For the subdomain (`blog.mydomain.com`) pointing to your GCP VM:**
+    *   You would create an `A` record pointing to your VM's public IP address.
+    *   **Type**: `A`
+    *   **Host/Name**: `blog`
+    *   **Value**: (Your VM's IP address, e.g., `35.222.192.148`)
+
+3.  **For the second subdomain (`app.mydomain.com`) pointing to the same VM:**
+    *   You create another `A` record, just like the one for `blog`, pointing to the exact same IP address.
+    *   **Type**: `A`
+    *   **Host/Name**: `app`
+    *   **Value**: (Your VM's IP address, e.g., `35.222.192.148`)
+
+In the last two cases, your web server (like Nginx or Apache) on the GCP VM would be responsible for handling the incoming requests. You would configure it to check the hostname (`blog.mydomain.com` or `app.mydomain.com`) and serve the correct website or application for each.
+
 ### Key DNS Terminology
 
 -   **Nameservers (NS)**: These are the servers that hold the authoritative DNS records for your domain. When you manage your DNS with a provider like Squarespace or Cloudflare, you are using their nameservers. Changing your nameservers effectively "moves" your DNS management from one provider to another.

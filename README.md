@@ -12,7 +12,7 @@ Follow these guides in order for a complete, step-by-step journey.
 
 1.  **[Domain Registration Basics](./domain-registration.md)**: What is a domain name and how do you get one? This guide covers the essential first step.
 
-2.  **[DNS Fundamentals](./dns-basics.md)**: Learn about the Domain Name System (DNS), the "phonebook of the internet" that translates human-friendly domain names into computer-friendly IP addresses.
+2.  **[DNS Fundamentals](./dns-basics.md)**: Learn about the "phonebook of the internet." This guide covers DNS basics and how to point your domain and subdomains to different servers (e.g., website on GitHub Pages, blog on a GCP VM).
 
 3.  **[Setting Up a Google Cloud VM](./gcp-vm-setup.md)**: A practical guide to creating your own virtual machine in the cloud using Google Cloud's Compute Engine.
 
